@@ -26,7 +26,6 @@ unsigned long long int non_fib_n(unsigned long long int target)
 	unsigned long long int		prev_prev_fib = 0, prev_fib = 1, next_fib = 0;
 	unsigned long long int		next_non_fib = 0;
 	unsigned long long int		limit = 0x7fffffffffffffff; // para 8 bytes
-	if (target == 0) return 0;
 	unsigned long long int		i = 0;
 	while (limit > prev_prev_fib)
 	{	// segue em frente ate atingir o limite do teste
